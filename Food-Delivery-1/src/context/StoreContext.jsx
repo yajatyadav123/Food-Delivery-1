@@ -14,7 +14,7 @@ const StoreContextProvider = (props) => {
     setFoodList(response.data.data);
   };
 
-  const url = "http://localhost:4000";
+  const url = "https://food-delivery-1-backend.onrender.com";
 
   const addToCart = async (itemId) => {
     console.log("Token:", token);
